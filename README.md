@@ -25,9 +25,9 @@
 
 ## 💻 Tech Stack
 
-- **Frontend:** [React / Flutter / etc.]  
-- **Backend:** [Node.js / Firebase / etc.]  
-- **Database:** [MongoDB / Firestore / etc.]
+- **Frontend:** [React]  
+- **Backend:** [Node.js]  
+- **Database:** [MongoDB]
 
 ---
 
