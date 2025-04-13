@@ -38,4 +38,4 @@
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [Git](https://git-scm.com/)
-- [Your framework CLI, e.g., Flutter, React, etc.]
+- [React]
