@@ -1,9 +1,11 @@
 import React from "react";
 import "./Contact.css";
-
+import Navbar from "../components/Navbar";
 const Contact = () => {
   return (
+    
     <div className="contact-container">
+      <Navbar />
       <div className="contact-card">
         <h2 className="contact-title">
           Contact us <span role="img" aria-label="email">📧</span>

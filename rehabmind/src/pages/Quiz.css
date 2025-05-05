@@ -1,58 +1,49 @@
 .quiz-container {
-    background: url('/images/quiz-bg.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 3rem 1rem;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .quiz-container h2 {
-    color: #333;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-  }
-  
-  .quiz-form {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 2.5rem;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .quiz-question p {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .quiz-question label {
-    display: block;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-  }
-  
-  .quiz-question input[type="radio"] {
-    margin-right: 0.5rem;
-  }
-  
-  .quiz-form button {
-    background-color: #111;
-    color: #fff;
-    border: none;
-    padding: 0.9rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 12px;
-    cursor: pointer;
-    align-self: flex-end;
-  }
-  
-  .quiz-form button:hover {
-    background-color: #333;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+  background: url('C:\Users\Parth Bhunia\OneDrive\Desktop\Rehabitmind\rehabmind\public\images\WhatsApp Image 2025-04-14 at 17.10.48_1514f5db.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  backdrop-filter: brightness(0.95);
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom:50px;
+  color: #333;
+}
+
+.card-container {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.role-card {
+  width: 180px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.85); /* Slight transparency to blend with bg */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+

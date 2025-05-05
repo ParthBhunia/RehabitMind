@@ -1,0 +1,107 @@
+.adult-quiz-container {
+    background-color: #f3f4f6; /* neutral grayish background */
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .adult-quiz-container h1 {
+    font-size: 2rem;
+    color: #374151; /* dark gray */
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .quiz-form {
+    width: 100%;
+    max-width: 700px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .question-block {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #e5e7eb; /* soft gray */
+    border-radius: 12px;
+  }
+  
+  .question {
+    font-size: 1.1rem;
+    color: #111827;
+    margin-bottom: 10px;
+  }
+  
+  .emoji-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .emoji-label {
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .emoji-label:hover {
+    transform: scale(1.2);
+  }
+  
+  .emoji-label input {
+    display: none;
+  }
+  
+  .emoji-label span {
+    padding: 8px 12px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .emoji-label input:checked + span {
+    border-color: #4b5563; /* muted gray */
+    background-color: #f9fafb;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #6b7280; /* medium gray */
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4b5563;
+  }
+  
+  .result {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    color: #1f2937;
+    background-color: #f9fafb;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .disclaimer {
+    margin-top: 20px;
+    color: #555;
+    font-size: 0.95rem;
+    text-align: center;
+  }

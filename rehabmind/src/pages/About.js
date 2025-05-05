@@ -1,9 +1,12 @@
+// src/pages/About.js
 import React from "react";
+import Navbar from "../components/Navbar"; // Import the Navbar component
 import "./About.css";
 
 const About = () => {
   return (
     <div className="about-container">
+      <Navbar /> {/* Include the Navbar here */}
       <div className="about-overlay">
         <div className="about-left">
           <h1>
