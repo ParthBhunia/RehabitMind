@@ -2,6 +2,8 @@
 
 **RehabitMind** is a mental wellness platform built to motivate and uplift users through positive content. The platform offers a variety of tools like motivational videos, inspirational books, fun memes, and mood-based quizzes — all designed to promote better mental health without the use of AI-based recommendations.
 
+https://rehabitmind.netlify.app/
+
 ---
 
 ## 🌟 Features
