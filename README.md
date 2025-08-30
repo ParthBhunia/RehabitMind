@@ -28,7 +28,7 @@ https://rehabitmind.netlify.app/
 ## 💻 Tech Stack
 
 - **Frontend:** [React]  
-- **Backend:** [Node.js]  
+- **Backend:** [Node.js+Express.js]  
 - **Database:** [MongoDB]
 
 ---
